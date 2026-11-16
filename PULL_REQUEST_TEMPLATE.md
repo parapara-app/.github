@@ -5,7 +5,7 @@
 <!-- The sentences under the plan heading. Whole sentences ending in a verb, for a reader who has never seen the plan: what happens, when, and what comes out -->
 
 ## Review order
-<!-- One block per data flow, titled with when it runs. In a text fence, from the outermost entry to the external command or file at the bottom, one `→ path Function: what it does` per line. Then "Outside the flows": only what no flow shows. A 📄 PR is merged after reading only the code these lines point at, so point exactly -->
+<!-- One Shape per data flow, titled `Shape N. <when it runs>: <what it does>`. In a text fence, from the outermost entry to the external command or file at the bottom, one `→ path Function: what it does` per line; indent two spaces for a function the line above calls, move back two on return. Then "Why": only what no Shape shows. No per-file list: with several commits it turns into an index. A 📄 PR is merged after reading only the code these lines point at, so point exactly -->
 
 ## Risks
 <!-- What could break -->
@@ -22,7 +22,7 @@
 <!-- 계획 제목 밑 문장. 계획을 본 적 없는 사람에게, 동사로 끝나는 문장으로: 무엇이 언제 일어나고 무엇이 남는지 -->
 
 ## Review order
-<!-- 데이터 흐름마다 블록 하나, 언제 도는지를 제목으로. text 펜스에 맨 바깥 입구부터 맨 아래 외부 명령이나 파일까지, 한 줄에 `→ 경로 함수: 하는 일` 하나. 그 밑에 「흐름 밖」: 어느 흐름에도 안 보이는 것만. 📄 PR은 여기가 가리키는 코드만 읽고 합치니 정확히 가리킨다 -->
+<!-- 데이터 흐름마다 Shape 하나, 제목은 `Shape N. <언제 도는지>: <무엇을 하는지>`. text 펜스에 맨 바깥 입구부터 맨 아래 외부 명령이나 파일까지, 한 줄에 `→ 경로 함수: 하는 일` 하나. 윗줄 함수가 부르는 함수는 두 칸 들여쓰고, 돌아오면 두 칸 당긴다. 그 밑에 「Why」: 어느 Shape에도 안 보이는 것만. 파일별 목록은 없다: 커밋이 여러 개면 목차가 된다. 📄 PR은 여기가 가리키는 코드만 읽고 합치니 정확히 가리킨다 -->
 
 ## Risks
 <!-- 깨질 수 있는 것 -->
